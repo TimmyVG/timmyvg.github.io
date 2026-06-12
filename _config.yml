@@ -225,3 +225,19 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# Polyglot Settings
+plugins:
+  - jekyll-polyglot
+whitelist:
+  - jekyll-polyglot
+
+languages: ["en", "es"]
+default_lang: "es"
+exclude_from_localization:
+  ["javascript", "images", "css", "public", "assets", "sitemap.xml"]
+parallel_localization: false
+lang_from_path: true
+
+sass:
+    sourcemap: never
