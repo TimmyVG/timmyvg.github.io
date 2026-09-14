@@ -16,6 +16,7 @@
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
+
   // Disable vscode built-in stylelint
   "css.validate": false,
   "scss.validate": false,
@@ -25,6 +26,7 @@
   "stylelint.validate": ["css", "scss"],
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
-    "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
+    "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] },
+    "path-intellisense.absolutePathToWorkspace": true
   }
 }

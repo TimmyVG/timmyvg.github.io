@@ -1,0 +1,45 @@
+---
+layout: page
+---
+<article>
+  <h1>{{ page.title }}</h1>
+  <div class="post-desc">{{ page.description }}</div>
+
+  <p><strong>Rol:</strong> {{ page.role }} · <strong>Motor:</strong> {{ page.engine }}</p>
+  {% if page.image %}
+    <div class="project-page-image-wrapper">
+      <a href="{{ page.image | relative_url }}" class="popup img-link shimmer">
+        <img src="{{ page.image | relative_url }}" class="project-page-image" alt="{{ page.title }}" loading="lazy">
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+</article>
+
+{%- assign project_slug = page.path | split: '/' | last | remove: '.md' -%}
+{%- assign has_related = false -%}
+<section class="related-posts">
+  <h2>Related posts</h2>
+  <ul>
+    {%- for p in site.posts -%}
+      {%- if p.projects and p.projects contains project_slug -%}
+        {%- assign has_related = true -%}
+        <li>
+          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+          <span class="text-muted">{{ p.date | date: '%Y-%m-%d' }}</span>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</section>
+
+{%- if has_related == false -%}
+  <style>
+    .related-posts {
+      display: none;
+    }
+  </style>
+{%- endif -%}
