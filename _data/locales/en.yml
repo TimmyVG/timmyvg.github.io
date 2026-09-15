@@ -11,8 +11,8 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Home
-  projects: Projects
+  home: Proyects
+  blog: Blogs
   about: About
 
 # the text displayed in the search bar & search results
