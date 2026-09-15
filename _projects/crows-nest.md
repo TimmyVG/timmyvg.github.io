@@ -1,7 +1,6 @@
 ---
 title: "Inside the Crow's Nest"
 description: "Mi primer juego en STEAM!"
-layout: project
 image: /assets/img/TWITCH_POSTER.png
 role: Gameplay Programmer
 engine: Unreal Engine 5

@@ -33,6 +33,36 @@
   display: block;
 }
 
+.gh-chart-section {
+  margin: 0 0 1.5rem;
+}
+
+.gh-chart-title {
+  margin: 0 0 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(31, 41, 55, 0.72);
+}
+
+.gh-chart-wrapper {
+  width: 100%;
+  padding: 0.85rem;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 10px;
+  background: rgba(148, 163, 184, 0.03);
+  overflow: hidden;
+}
+
+.gh-chart-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
 .cv-timeline {
   position: relative;
   margin-top: 2rem;

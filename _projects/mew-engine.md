@@ -1,7 +1,6 @@
 ---
 title: MEW Engine
 description: MEW Engine es un motor gráfico 3D desarrollado desde cero en C++17 y OpenGL
-layout: project
 image: /assets/img/Motor.png
 role: Programador
 engine: OpenGL

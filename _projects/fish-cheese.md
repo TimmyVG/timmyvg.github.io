@@ -1,6 +1,5 @@
 ---
 title: Fish & Cheese
-layout: project
 image: /assets/img/OdG_Lk.png
 role: Jam
 engine: Unity

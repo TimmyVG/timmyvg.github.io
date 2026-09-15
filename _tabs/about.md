@@ -4,40 +4,32 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Soy Vicente Molina, y tengo muchas ganas de aprender todo lo que pueda.
+Soy Vicente Molina, desarrollador de software especializado en programación de videojuegos.
 
-Soy desarrollador de software especializado en desarrollo de videojuegos. Y dentro de este mundillo crear herramientas me encanta, tambien disfruto de la programación gráfica, del bajo nivel... En resumen me gusta todo.
+Me muevo con soltura entre distintas capas del desarrollo: desde herramientas y editores hasta programación gráfica y de bajo nivel. He construido un motor gráfico propio en OpenGL (MEW Engine), programado gameplay en Godot y Unreal Engine 5, y participado en proyectos con Unity, incluyendo una game jam.
 
-Estoy esperando oportunidades de trabajar en empresas grandes para ganar experiencia en proyectos profesionales.
+Actualmente busco incorporarme a un estudio o empresa donde pueda aportar en programación de gameplay, herramientas o motor, y seguir creciendo junto a un equipo profesional.
 
 <a href="/assets/pdf/Vicente_Molina_Torres.pdf" class="btn btn-primary" download>
     <i class="fas fa-download"></i>
     Descargar CV
 </a>
 
-<div class="cv-timeline">
-  <div class="cv-timeline-item">
-    <div class="cv-timeline-date">2026</div>
-    <div class="cv-timeline-card">
-      <h3>Desarrollo Duck PONG</h3>
-      <p><strong>Proyecto</strong></p>
-    </div>
-  </div>
 
   <div class="cv-timeline-item">
     <div class="cv-timeline-date">2023</div>
     <div class="cv-timeline-card">
       <h3>HND Computer Science</h3>
       <p><strong>ESAT - Valencia</strong></p>
-      <p>Especialización en programación de videojuegos, junto a creacion de Inside The Crow's nest</p>
+      <p>Especialización en programación de videojuegos. Desarrollo de Inside the Crow's Nest en Unreal Engine 5 y creación de un motor con opengl</p>
     </div>
   </div>
 
   <div class="cv-timeline-item">
     <div class="cv-timeline-date">2022</div>
     <div class="cv-timeline-card">
-      <h3>Experiencia laboral</h3>
-      <p><strong>Entelgy</strong></p>
+      <h3>Entelgy</h3>
+      <p><strong>Prácticas</strong></p>
       <p>Automatización de procesos con Java</p>
     </div>
   </div>
@@ -45,9 +37,9 @@ Estoy esperando oportunidades de trabajar en empresas grandes para ganar experie
   <div class="cv-timeline-item">
     <div class="cv-timeline-date">2022</div>
     <div class="cv-timeline-card">
-      <h3>Finalización Ciclo Superior DAM</h3>
-      <p><strong>IES Francisco de Goya</strong></p>
+      <h3>IES Francisco de Goya</h3>
+      <p><strong>Finalización Ciclo Superior DAM</strong></p>
       <p>Comienzo de mi camino en el sector IT.</p>
     </div>
   </div>
-</div>
+

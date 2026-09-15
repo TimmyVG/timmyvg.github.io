@@ -1,6 +1,5 @@
 ---
 title: Hop Shop
-layout: project
 image: /assets/img/HopShop.png
 role: Desarrollador - Programador
 engine: Unity

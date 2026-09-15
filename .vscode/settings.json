@@ -11,7 +11,8 @@
   },
   // Formatter
   "[html][liquid]": {
-    "editor.defaultFormatter": "Shopify.theme-check-vscode"
+    "editor.defaultFormatter": "Shopify.theme-check-vscode",
+    "editor.formatOnSave": false
   },
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"

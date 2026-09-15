@@ -6,13 +6,13 @@ layout:
   post: Entrada
   category: Categoría
   tag: Etiqueta
-  proyect: Proyecto
+  project: Proyecto
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
   home: Inicio
-  proyects: Proyectos
+  projects: Proyectos
   about: Acerca de
 
 # the text displayed in the search bar & search results
