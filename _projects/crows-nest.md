@@ -30,8 +30,4 @@ Una de las mecanicas que incluí en el juego fue añadirle a los objetos movible
 **El indiana Jones de los libros** es una pequeña tonteria que quisimos meter en el juego y que dio un resultado increible.
 {% include embed/youtube.html id='e-VLUZZWjQg' %}
 
-## Tech stack
 
-- Unreal Engine 5
-- C++ / Blueprints
-https://www.youtube.com/watch?v=e-&feature=youtu.be
